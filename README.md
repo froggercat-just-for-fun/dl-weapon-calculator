@@ -22,7 +22,7 @@ Install these if you don't have them.
 Then, you'll need the following in asdf (there are detailed instructions on their website):
 
 * The python version we use in this project (check the `.envrc` file)
-* `virtualenv` (or `venv`/`pyenv` depending on which virtual environment your copy of `direnv` uses.)
+* `virtualenv` (or `venv`/`pyenv` depending on which virtual environment you use with `direnv`.)
 
 You'll then be ready to run `direnv allow .envrc` to enable direnv in this directory. Direnv should then set up a python virtual environment for you in this folder.
 
